@@ -1,7 +1,7 @@
 # Happy-Script-Journey
 Javascript, React, Express, Nest 등의 Javascript Ecosystem 학습 Repo
 
-# React  
+# React
 package(folder structure) 정리   
 [beginner-inter-advanced-react-folder-structure](https://github.com/WebDevSimplified/react-folder-structure)  
 [React-Folder-Structure](https://github.com/duthanhduoc/React-Folder-Structure)  
