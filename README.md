@@ -10,7 +10,9 @@ folder structure, state structure, style, functional 전반적인것
 디자인패턴  
 [Design Pattern](https://github.com/MicheleBertoli/react-design-patterns-and-best-practices)   
 [Design Pattern2](https://github.com/PacktPublishing/React-Design-Patterns-and-Best-Practices)  
-Redux style guide
+Redux style guide  
 [redux style](https://github.com/iraycd/React-Redux-Styleguide)  
-스타일 가이드
+스타일 가이드  
 [style guide](https://github.com/coderjonny/react-style-guide)  
+Example of best practice  
+[example practice](https://github.com/wheatandcat/react-best-practices)
