@@ -1,7 +1,23 @@
-const orderHouse = (wood, callback) => {
-    gatherWood(wood, function(gatherWood)){
-        gaterWorker(gaterWood, function(gaterWorker)){
-            console.log("we are ready to build a house");
-        }
+const promise = new Promise((resolve, reject) => {
+    resolve("Data result");
+});
+
+promise.then(
+    data => {
+        console.log(data);
     }
-}
+)
+
+const errorPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject(new Error("IT'S ERROR"));
+    }, 2000);
+});
+
+errorPromise.then(
+    data => {
+        console.log(data);
+    }
+).catch(err => {
+    console.log(err);
+})
