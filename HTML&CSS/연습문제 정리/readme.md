@@ -1,3 +1,29 @@
+### HTML 연습문제 정리
+
+1. detailist 요소와 연결시키기 위해서 input 요소에 list 속성을 사용한다.
+2. main 요소는 body에서 한번만 사용할 수 있다.
+3. a.mp4를 10~20초만 재생하는 src는 a.mpr#t=10,20
+4. source에서 audio의 src 역할을 대신하고 audio와 video의 하위 요소 역할을 한다.
+    1. 재생할 미디어 파일의 URL을 지정한다
+    2. 여러개가 지정된 경우 순차적 실행된다.
+5. audio에서 preload가 지정되도 특정 속성이 변경되면 무시되는데 autoplay이다.
+6. 하나 이상의 열들을 모아 한꺼번에 지정하는 colgroup이 있다.
+7. rowspan 속성을 사용할 수 있는 속성은 td 이다.
+8. img 에서 그림 파일을 지정하기위해 필수적으로 사용되는 속성은 src 이다.
+9. 시각적 및 의미적 특정 문구 강조는 highlight가 아닌 mark이다.
+10. 단락의 주제를 구분하는 용도는 hr
+11. 속성의 요소는 시작태그에만 들어간다.
+12. 한 요소에 여러 개의 요소는 공백으로 구분
+13. html의 전역 속성은 
+    1. style
+    2. id
+    3. class
+    4. **type은 아니다**
+14. 요소의 구성 요소가 아닌것은 method 이다.
+    1. 태그 tag
+    2. 내용 contents
+    3. 속성 attribute
+
 ### CSS 연습문제 정리
 
 1. 다단 속성중 설정된 다단 무시하고 하나의 단으로 표시하는 column-span
@@ -5,14 +31,27 @@
 3. transition이 적용될 속성의 이름을 지정하는 속성은 transition-property
 4. transfrom 요소 박스의 변형 기준점을 지정하는 속성은 transform-origin
 5. visibility에서 두번째 행을 제거해서 화면에 표시하지 않으려고할때 collapse
-
-### 자바스크립트 연습문제 정리
-
-1. 객체 변수 생성시 new 연산자가 필요한 객체는 Date와 Array 이다.
-2. new Array(”Mon”, “Tue”)에서 Mon을 반환하고 제거하는 메서드는 shift() 이다.
-3. String 객체의 부분 문자열을 추출하는것중 가장 긴 문자열 반환은 subStr이다.
-4. 자바스크립트에서 순서가 자아 높은 연산자는 ! 이다.
-5. 자바스크립트 식별자로 숫자부터 시작하면 안된다.(달러 언더바 가능)
+6. overflow에서 height 속성이 지정된 블록 요소에서만 사용이 가능하다.
+    1. 속성은 visible, hidden, clip, scroll, auto가 있다.
+7. 요소와 테두리 사이 여백을 지정하는 CSS는 padding 이다.
+8. z-index 속성 값이 클스록 앞쪽에 위치한다.
+9. css 테이블 기본값
+    1. table-layout → auto
+    2. border-collapse → seperate
+    3. empty-cells → show
+    4. caption-side → top
+10. css 리스트 관련 속성
+    1. list-style-size
+    2. list-style-type
+    3. list-style-image
+11. text-shadow에서 수평 위치와 수직 위치 값으로 음수 사용이 가능하다.
+12. 사용자 정의 글꼴은 @font-face
+13. 흰색 rgb는 rgb(100%,100%100%)
+14. A 요소의 자손 요소중에서 B 요소는 A B 이다.
+15. HTML 문서에서 CSS 적용할때 사용되는 속성은
+    1. style 요소, 속성
+    2. link 요소 
+    3. **link 속성은 아님**
 
 ### DOM 연습문제 정리
 
